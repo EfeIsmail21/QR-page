@@ -1,31 +1,26 @@
-# QR-code Generator voor Login Gegevens
+# QR-code Generator for Login Credentials
 
-Deze webapplicatie genereert een QR-code met e-mail en wachtwoord gegevens die kunnen worden gescand om automatisch in te loggen op een ander apparaat.
+This web application generates a QR code with email and password data that can be scanned to automatically log in on another device.
 
-## Installatie
-
-1. Installeer de dependencies:
+## Installation
+1. Install the dependencies:
 ```bash
 npm install
 ```
-
-2. Start de ontwikkelserver:
+2. Start the development server:
 ```bash
 npm start
 ```
+The application will be available at `http://localhost:3000`
 
-De applicatie zal beschikbaar zijn op `http://localhost:3000`
+## Usage
+1. Enter your email and password in the form
+2. Click on "Generate QR code"
+3. Scan the generated QR code with another device
+4. The credentials will be automatically filled in on the other device
 
-## Gebruik
-
-1. Vul je e-mail en wachtwoord in het formulier in
-2. Klik op "Genereer QR-code"
-3. Scan de gegenereerde QR-code met een ander apparaat
-4. De gegevens worden automatisch ingevuld op het andere apparaat
-
-## Technologieën
-
+## Technologies
 - React
 - TypeScript
 - Tailwind CSS
-- qrcode.react 
+- qrcode.react
